@@ -1,3 +1,4 @@
+//Calculates the number of possible paths to reach the bottom right corner of the matrix. It is only allowed to go down or right.
 const cache = new Map()
 cache.set(1+','+1,1)
 
@@ -11,4 +12,4 @@ const gridTraveler = (i,j) => {
     return result
 }
 
-console.log(gridTraveler(100,100))
+console.log(gridTraveler(10,10))
