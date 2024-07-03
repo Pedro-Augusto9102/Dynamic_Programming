@@ -4,7 +4,7 @@ const bestSum = (target, arr) => {
     if(cache.has(target)) return cache.get(target)
     if (target === 0) return []
     if (target < 0) return null
-    
+
     let shortest = null
     
     for (let num of arr){
@@ -19,4 +19,4 @@ const bestSum = (target, arr) => {
     }    
     return shortest
 }
-console.log(bestSum(300,[1,2,3,4,5]))
+console.log(bestSum(10,[1,2,3,4,5]))
