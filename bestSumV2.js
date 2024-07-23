@@ -30,4 +30,4 @@ const bestSum = (nums, target) => {
     return finalRes
 }
 
-console.log(bestSum([1,3,4,6,9], 1000))
+console.log(bestSum([1,3,4,6,9], 500))
